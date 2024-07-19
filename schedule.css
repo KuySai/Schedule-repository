@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+table.a{
+    table-layout: auto;
+    width: 100%;
+    background-color: aqua;
+    border-collapse: collapse;
+    border: 5px solid black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+thead.a{
+    table-layout: auto;
+    width: 100%;
+    background-color: aqua;
+    border-collapse: collapse;
+    border: 5px solid black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.time{
+    background-color: bisque;
+    border: solid black;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.days{
+    background-color: bisque;
+    border: solid black;
+    padding: 10px;
+    text-align: center;
+}
+.all-time{
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: black
+}
+.all-sub{
+    text-align: center;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: black;
+}
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22.5px;
+}
