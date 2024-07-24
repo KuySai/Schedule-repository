@@ -3,10 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-div{
-    display: block;
-    margin: 20px;
-}
+
 table.a{
     table-layout: auto;
     width: 100%;
