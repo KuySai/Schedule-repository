@@ -3,11 +3,15 @@ body{
     margin: 0;
     padding: 0;
 }
+div{
+    display: block;
+    margin: 20px;
+}
 table.a{
     table-layout: auto;
     width: 100%;
     background-color: aqua;
-    border-collapse: collapse;
+    border-collapse: separate;
     border: 5px solid black;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -19,6 +23,7 @@ thead.a{
     border: 5px solid black;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     text-align: center;
+   
 }
 th{
     font-family: 'Times New Roman', Times, serif;
@@ -53,6 +58,7 @@ th{
     padding-top: 10px;
     border-style: solid;
     border-color: black;
+    border-radius: 20px;
 }
 td{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
