@@ -7,7 +7,7 @@ body{
 table.a{
     table-layout: auto;
     width: 100%;
-    background-color: aqua;
+    background-color:#ffffb3;
     border-collapse: separate;
     border: 5px solid black;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
@@ -15,10 +15,11 @@ table.a{
 thead.a{
     table-layout: auto;
     width: 100%;
-    background-color: aqua;
+    color:#242331;
+    background-color:#ffe6a7;
     border-collapse: collapse;
-    border: 5px solid black;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    border-color: 5px solid black;
     text-align: center;
    
 }
@@ -28,20 +29,26 @@ th{
 }
 
 .time{
-    background-color: bisque;
+    color: #ffffb3;
+    background-color: #b88b4a;
     border: solid black;
     padding: 0;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    text-shadow: 2px 1px #242331;
 }
 .days{
-    background-color: bisque;
+    color: #ffffb3;
+    background-color: #b88b4a;
     border: solid black;
     padding: 10px;
     text-align: center;
+    text-shadow: 2px 1px #242331;
 }
 .all-time{
+    color: #242331;
+    background-color: #ffd791;
     text-align: center;
     padding-top: 9px;
     padding-bottom: 9px;
@@ -49,6 +56,7 @@ th{
     padding-right: 20px;
     border-style: solid;
     border-color: black
+    
 }
 .all-sub{
     text-align: center;
