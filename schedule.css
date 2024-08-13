@@ -8,6 +8,8 @@ table.a{
     table-layout: auto;
     width: 100%;
     background-color:#ffffb3;
+    background-image: url("https://images6.alphacoders.com/134/1348908.jpeg");
+    background-size: cover;
     border-collapse: separate;
     border: 5px solid black;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
@@ -37,6 +39,7 @@ th{
     font-weight: bold;
     font-size: 30px;
     text-shadow: 2px 1px #242331;
+    
 }
 .days{
     color: #ffffb3;
@@ -45,10 +48,12 @@ th{
     padding: 10px;
     text-align: center;
     text-shadow: 2px 1px #242331;
+    
 }
 .all-time{
     color: #242331;
     background-color: #ffd791;
+    opacity: .93;
     text-align: center;
     padding-top: 9px;
     padding-bottom: 9px;
@@ -64,6 +69,9 @@ th{
     border-style: solid;
     border-color: black;
     border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    opacity: .93;
 }
 td{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
