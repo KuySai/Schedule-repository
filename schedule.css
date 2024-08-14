@@ -21,13 +21,18 @@ thead.a{
     background-color:#ffe6a7;
     border-collapse: collapse;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-    border-color: 5px solid black;
+    border: 5px solid black;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
    
 }
 th{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    
+
 }
 
 .time{
